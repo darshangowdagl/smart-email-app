@@ -132,8 +132,6 @@ These design decisions, as reflected in the class diagram, contribute to a modul
 
 ## 👨‍💻 Author
 
-> Crafted with ❤️ by [Praneet, Kartik, Aayush, Kousthubh]
->
->
+> Crafted with ❤️ by Darshangowda G L
 
 ---
