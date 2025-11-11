@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Smart Email Application
+  data:
+    mongodb:
+      uri: mongodb+srv://praneetvkhp:XYzj5kqkYgo2xx1P@cluster0.8jhvay6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: smart_email_db
+
+server:
+  port: ${PORT:8080}
+  servlet:
+    context-path: /email-app
