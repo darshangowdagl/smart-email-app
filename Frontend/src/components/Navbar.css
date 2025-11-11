@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+.container {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 16px;
+}
+
+.logo-title {
+  color: #e11c1c;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.logo{
+  margin-right: 10px;
+}
+
+.nav-section {
+  width: 50rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-section div {
+  cursor: pointer;
+  position: relative;
+  padding: 0.2rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-section div::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ef4444;
+  transition: width 0.3s ease;
+}
+
+.nav-section div:hover {
+  color: #ef4444;
+}
+
+.nav-section div:hover::after {
+  width: 100%;
+}
+
+.nav-section div {
+  font-size: larger;
+  margin-right: 5rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-btn {
+  height: 40px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 10px 2px #00000040;
+}
+
+.btn-1 {
+  margin-right: 20px;
+  transition-duration: 300ms;
+}
+
+.btn-2 {
+  background-color: black;
+  color: white;
+  transition-duration: 300ms;
+}
+
+.btn-1:hover{
+    transform: scaleX(1.1);
+}
+
+.btn-2:hover {
+    background-color: #e11c1c;
+    color: white;
+    border: none;
+    transform: scaleX(1.1);
+}
+
+.about {
+  color: #e11c1c;
+  font-weight: 600;
+}

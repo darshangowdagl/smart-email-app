@@ -1,0 +1,134 @@
+.reply-container {
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 90%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.3s ease;
+  perspective: 1000px;
+}
+
+.reply-container:hover {
+  transform: translateY(-5px) rotateX(2deg);
+  box-shadow: 0 15px 35px rgba(255, 59, 59, 0.2);
+}
+
+.reply-container h2 {
+  color: #FF3B3B;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.reply-container:hover h2 {
+  transform: translateZ(20px);
+}
+
+.reply-content {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.reply-container:hover .reply-content {
+  transform: translateZ(15px);
+}
+
+.email-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.email-header p {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.email-body {
+  line-height: 1.6;
+  color: #333;
+}
+
+.email-body p {
+  margin-bottom: 1rem;
+}
+
+.reply-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.action-btn {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.send {
+  background: #FF3B3B;
+  color: white;
+}
+
+.edit {
+  background: #f8f9fa;
+  border: 1px solid #FF3B3B;
+  color: #FF3B3B;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 59, 59, 0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  transition: all 0.3s ease;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.close-btn:hover {
+  color: #FF3B3B;
+  transform: rotate(180deg) scale(1.2);
+  background: rgba(255, 59, 59, 0.1);
+}
+
+.close-btn:active {
+  transform: rotate(180deg) scale(0.9);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reply-container {
+  animation: slideIn 0.3s ease-out;
+}

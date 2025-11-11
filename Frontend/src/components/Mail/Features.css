@@ -1,0 +1,128 @@
+.features {
+    padding: 1rem 2rem;
+    margin-left: 3rem;
+}
+
+.feature-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.feature-btn {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: rgb(56, 54, 54);
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-btn:hover {
+    background-color: #f0f0f0;
+    color: #FF3B3B;
+    transform: scale(1.2);
+}
+
+.back:hover {
+    color: #333;
+}
+
+.delete:hover {
+    color: #FF3B3B;
+}
+
+.info:hover {
+    color: #0066ff;
+}
+
+.info-container {
+    position: relative;
+    display: inline-block;
+}
+
+@keyframes rotate {
+  0% { border-image: linear-gradient(45deg, #FF3B3B, #0066ff) 1; }
+  50% { border-image: linear-gradient(225deg, #FF3B3B, #0066ff) 1; }
+  100% { border-image: linear-gradient(405deg, #FF3B3B, #0066ff) 1; }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 15px rgba(255, 59, 59, 0.6); }
+  50% { box-shadow: 0 0 25px rgba(0, 102, 255, 0.6); }
+  100% { box-shadow: 0 0 15px rgba(255, 59, 59, 0.6); }
+}
+
+.info-box {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    min-width: 280px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 100;
+    box-shadow: 
+      0 5px 20px rgba(0, 0, 0, 0.15),
+      0 0 20px rgba(255, 59, 59, 0.2);
+}
+
+.info-container:hover .info-box {
+    opacity: 1;
+    visibility: visible;
+    top: 40px;
+    animation: glow 2s ease-in-out infinite;
+}
+
+/* You can remove these keyframes as they're no longer needed */
+@keyframes rotate {
+  0% { border-image: linear-gradient(45deg, #FF3B3B, #0066ff) 1; }
+  50% { border-image: linear-gradient(225deg, #FF3B3B, #0066ff) 1; }
+  100% { border-image: linear-gradient(405deg, #FF3B3B, #0066ff) 1; }
+}
+
+.info-box::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 16px;
+    height: 16px;
+    background: white;
+    box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.04);
+}
+
+.info-box h3 {
+    color: #FF3B3B;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.info-item {
+    margin-bottom: 0.8rem;
+}
+
+.info-item span {
+    color: #666;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.info-item p {
+    color: #333;
+    margin: 0;
+    font-size: 0.95rem;
+}

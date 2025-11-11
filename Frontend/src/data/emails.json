@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "GitHub",
+    "sender": "noreply@github.com",
+    "subject": "New Pull Request Merged",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis in tellus facilisis lacinia. Morbi gravida nunc lacus, ut scelerisque metus pulvinar ut. Integer sit amet ligula at ante ornare volutpat. Donec dapibus neque ut hendrerit sodales. Aliquam gravida tortor sit amet sagittis vehicula. Phasellus tempus purus et eros faucibus maximus nec et nisl. Nulla ut maximus augue. Mauris sit amet diam sed ligula rhoncus euismod. Etiam laoreet laoreet venenatis. In sollicitudin vulputate nibh, eget aliquet leo dignissim ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec tincidunt tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent euismod egestas libero, a sagittis ipsum commodo vel. Vivamus tempor pulvinar magna, non vehicula dui luctus eget. Quisque quam dolor, aliquam eu porttitor id, commodo pharetra lectus. Nullam eu scelerisque purus. Proin hendrerit orci vulputate odio fringilla pharetra ac non sapien. Morbi nisl leo, finibus nec rutrum a, consectetur sed magna. Nullam a mauris ornare, tristique sapien ac, scelerisque ipsum. Donec nec imperdiet risus, ac bibendum augue. In turpis quam, consequat a quam sed, consequat scelerisque turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida malesuada est ut condimentum. Ut tincidunt, est sit amet posuere accumsan, leo nunc ultricies turpis, sit amet volutpat massa nulla nec ante. Nullam commodo tempus neque. Sed placerat elit turpis, id luctus justo fringilla ultrices. Pellentesque at convallis dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum malesuada risus sit amet mi pretium, semper hendrerit mi feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed arcu dolor, faucibus sit amet massa eu, ultrices varius risus. Mauris sed nisi eu libero egestas pretium a et risus. Integer at porttitor ex. Suspendisse imperdiet lectus at justo interdum congue. Pellentesque at enim eget eros convallis vestibulum. Donec sit amet sem euismod, eleifend magna at, mattis sapien. Pellentesque sit amet imperdiet est. Pellentesque diam nisl, pharetra id aliquam in, dignissim sit amet eros. Vestibulum vehicula tempor ante id pulvinar.Fusce luctus risus mattis vestibulum tristique. Mauris cursus dui sollicitudin metus auctor ultrices. In elementum sem eu neque malesuada suscipit. Vivamus at rhoncus lorem. Nulla tempus orci ut quam rhoncus molestie. Cras ornare enim et diam condimentum elementum. Aenean dignissim elementum diam non egestas. Praesent quis euismod justo. Morbi hendrerit sagittis diam ac vehicula.Nullam aliquet gravida sapien auctor pulvinar. Donec feugiat purus metus, ut tempor elit pretium non. Aliquam tristique ligula eu cursus placerat. Suspendisse potenti. Aliquam vel ipsum purus. In pretium ac odio quis rhoncus. Duis pretium interdum orci, a vehicula ipsum cursus ut. Nullam consequat odio vel tortor commodo, non cursus nisi eleifend.",
+    "timestamp": "2025-03-13T14:30:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": 2,
+    "name": "Google Security",
+    "sender": "security@google.com",
+    "subject": "Security Alert: New Login Detected",
+    "body": "A new sign-in attempt was detected from an unknown device. If this was not you, reset your password immediately...",
+    "timestamp": "2025-03-13T16:45:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": 3,
+    "name": "Bank of America",
+    "sender": "alerts@bankofamerica.com",
+    "subject": "Your Monthly Statement is Ready",
+    "body": "Your March 2025 statement is now available. Log in to view your transactions...",
+    "timestamp": "2025-03-12T08:20:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": 4,
+    "name": "Amazon Deals",
+    "sender": "deals@amazon.com",
+    "subject": "Limited-Time Discounts on Electronics!",
+    "body": "Get up to 50% off on the latest gadgets and accessories. Shop now before the sale ends...",
+    "timestamp": "2025-03-11T12:00:00Z",
+    "category": "Promotional"
+  },
+  {
+    "id": 5,
+    "name": "Nike Store",
+    "sender": "offers@nike.com",
+    "subject": "Exclusive Sneaker Drop - Early Access",
+    "body": "Be the first to grab our new limited-edition sneakers before they sell out. Order now...",
+    "timestamp": "2025-03-10T15:45:00Z",
+    "category": "Promotional"
+  },
+  {
+    "id": 6,
+    "name": "Spotify Premium",
+    "sender": "notifications@spotify.com",
+    "subject": "Your Subscription is Renewing Soon",
+    "body": "Your Spotify Premium subscription will renew on March 20, 2025. No action is required if you wish to continue...",
+    "timestamp": "2025-03-09T09:30:00Z",
+    "category": "Promotional"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn",
+    "sender": "updates@linkedin.com",
+    "subject": "New Job Alerts Matching Your Profile",
+    "body": "We found new job postings that match your experience. Check them out now...",
+    "timestamp": "2025-03-13T07:20:00Z",
+    "category": "Social"
+  },
+  {
+    "id": 8,
+    "name": "Facebook",
+    "sender": "notifications@facebook.com",
+    "subject": "You Have 5 New Friend Requests",
+    "body": "Your friends are waiting to connect with you. See who sent you a friend request...",
+    "timestamp": "2025-03-12T11:00:00Z",
+    "category": "Social"
+  },
+  {
+    "id": 9,
+    "name": "Instagram",
+    "sender": "alerts@instagram.com",
+    "subject": "New Story Mentions!",
+    "body": "You've been mentioned in 3 new stories today. Tap to see what your friends are sharing...",
+    "timestamp": "2025-03-11T18:10:00Z",
+    "category": "Social"
+  }
+]
